@@ -1,0 +1,22 @@
+{
+  "name": "evergrow-delivery",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy",
+    "start": "cd ./web && npm run start"
+  },
+  "dependencies": {
+    "@shopify/app": "3.20.0",
+    "@shopify/cli": "3.20.0",
+    "@supabase/supabase-js": "^2.0.4",
+    "date-fns": "^2.29.3"
+  },
+  "author": "User"
+}
